@@ -65,7 +65,7 @@ const Home = () => {
         <div className="mb-10">
           <a
             href="/contactme"
-            className="inline-flex items-center px-6 py-3 sm:px-8 sm:py-4 bg-gradient-to-r from-indigo-600 to-indigo-800 text-white text-base sm:text-lg font-semibold rounded-full shadow-lg transition-transform duration-300 hover:from-indigo-500 hover:to-indigo-700 hover:scale-110 hover:shadow-2xl"
+            className="inline-flex items-center px-6 py-3 sm:px-5 sm:py-3 bg-gradient-to-r from-indigo-600 to-indigo-800 text-white text-base sm:text-base font-semibold rounded-full shadow-lg transition-transform duration-300 hover:from-indigo-500 hover:to-indigo-700 hover:scale-105 hover:shadow-2xl"
           >
             <FiMail className="mr-2" />
             Contact Me
