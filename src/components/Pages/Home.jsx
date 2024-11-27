@@ -54,7 +54,7 @@ const Home = () => {
           <p>
             Welcome! I’m a Full Stack Developer from Hisar, Haryana,
             specializing in building responsive, scalable, and efficient web
-            solutions. Currently pursuing a B.Tech in Computer Science at NSUT,
+            solutions. Currently pursuing a B.Tech in Computer Science at Netaji Subhas University Of Technology (NSUT), Dwarka,
             Delhi, I am passionate about crafting innovative applications that
             enhance user experiences.
           </p>
