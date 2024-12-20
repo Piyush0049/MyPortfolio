@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaDownload, FaBook, FaSchool } from 'react-icons/fa';
+import { FaDownload, FaBook, FaSchool, FaCertificate } from 'react-icons/fa';
 import { Fade, Zoom } from 'react-reveal';
 import { FaCode } from "react-icons/fa";
 
@@ -51,13 +51,18 @@ const Resume = () => {
                                 <span className="w-2.5 h-2.5 bg-white rounded-full"></span>
                             </span>
                             <h3 className="text-xl text-gray-300 font-bold">Full Stack Developer</h3>
-                            <p className="text-sm text-gray-400">603TheCoworkingSpace | Aug 2024 — Oct 2024</p>
+                            <p className="text-sm text-gray-400">WorkVed Spaces Private Limited | Aug 2024 — Oct 2024</p>
                             <p className="mt-2 text-sm leading-relaxed text-justify">
                                 • Spearheaded the development and deployment of a high-quality UI/UX, resulting in a 30% increase in user engagement on the company's website. <br />
                                 • Built and scaled web applications using the MERN stack, reducing page load times by 35%. <br />
                                 • Optimized application performance using Next.js and Tailwind CSS, achieving a 50% improvement in site speed.
                             </p>
+                            <a href="https://drive.google.com/file/d/1CQ1rqdM_y9S_Ezx84bCU_0Iu8TOxzcqH/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="mt-4 inline-flex items-center text-indigo-400">
+                                <FaCertificate className="text-lg mr-2" />
+                                View Certificate
+                            </a>
                         </div>
+
                     </Fade>
                 </div>
             </section>
@@ -86,7 +91,7 @@ const Resume = () => {
 
             <section className="mt-12">
                 <Fade top>
-                <h2 className="text-2xl font-semibold flex items-center mb-6">
+                    <h2 className="text-2xl font-semibold flex items-center mb-6">
                         <FaCode className="mr-2" /> Languages and Tools
                     </h2>
                 </Fade>
@@ -96,49 +101,19 @@ const Resume = () => {
                             <h3 className="text-base mb-4 text-gray-200">Programming Languages</h3>
                             <p className="flex gap-3">
                                 <a rel="noreferrer" href="https://www.typescriptlang.org/" target="_blank">
-                                    <img
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
-
-                                        alt="TypeScript"
-                                        width="40"
-                                        height="40"
-                                    />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40" />
                                 </a>
                                 <a rel="noreferrer" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-                                    <img
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-
-                                        alt="JavaScript"
-                                        width="40"
-                                        height="40"
-                                    />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40" />
                                 </a>
                                 <a rel="noreferrer" href="https://www.python.org" target="_blank">
-                                    <img
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
-
-                                        alt="Python"
-                                        width="40"
-                                        height="40"
-                                    />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40" />
                                 </a>
                                 <a rel="noreferrer" href="https://www.java.com/" target="_blank">
-                                    <img
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
-
-                                        alt="Java"
-                                        width="40"
-                                        height="40"
-                                    />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40" />
                                 </a>
                                 <a rel="noreferrer" href="https://www.php.net/" target="_blank">
-                                    <img
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg"
-
-                                        alt="PHP"
-                                        width="40"
-                                        height="40"
-                                    />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="40" height="40" />
                                 </a>
                             </p>
                         </div>
@@ -147,76 +122,28 @@ const Resume = () => {
                             <h3 className="text-base mb-4 text-gray-200">Frontend Development</h3>
                             <p className="flex gap-3">
                                 <a rel="noreferrer" href="https://reactjs.org/" target="_blank">
-                                    <img
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
-
-                                        alt="React"
-                                        width="40"
-                                        height="40"
-                                    />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="40" height="40" />
                                 </a>
                                 <a rel="noreferrer" href="https://redux.js.org/" target="_blank">
-                                    <img
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
-
-                                        alt="Redux"
-                                        width="40"
-                                        height="40"
-                                    />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="Redux" width="40" height="40" />
                                 </a>
                                 <a rel="noreferrer" href="https://reactnative.dev/" target="_blank">
-                                    <img
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
-
-                                        alt="React Native"
-                                        width="40"
-                                        height="40"
-                                    />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React Native" width="40" height="40" />
                                 </a>
                                 <a rel="noreferrer" href="https://nextjs.org/" target="_blank">
-                                    <img
-                                        src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg"
-
-                                        alt="Next.js"
-                                        width="40"
-                                        height="40"
-                                    />
+                                    <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="Next.js" width="40" height="40" />
                                 </a>
                                 <a rel="noreferrer" href="https://getbootstrap.com/" target="_blank">
-                                    <img
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg"
-
-                                        alt="Bootstrap"
-                                        width="40"
-                                        height="40"
-                                    />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" width="40" height="40" />
                                 </a>
                                 <a rel="noreferrer" href="https://tailwindcss.com/" target="_blank">
-                                    <img
-                                        src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
-
-                                        alt="Tailwind CSS"
-                                        width="40"
-                                        height="40"
-                                    />
+                                    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="40" height="40" />
                                 </a>
                                 <a rel="noreferrer" href="https://sass-lang.com/" target="_blank">
-                                    <img
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
-
-                                        alt="Sass"
-                                        width="40"
-                                        height="40"
-                                    />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="Sass" width="40" height="40" />
                                 </a>
                                 <a rel="noreferrer" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-                                    <img
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
-
-                                        alt="HTML"
-                                        width="40"
-                                        height="40"
-                                    />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML" width="40" height="40" />
                                 </a>
                             </p>
                         </div>
@@ -225,58 +152,22 @@ const Resume = () => {
                             <h3 className="text-base mb-4 text-gray-200">Backend & Databases</h3>
                             <p className="flex gap-3">
                                 <a rel="noreferrer" href="https://nodejs.org" target="_blank">
-                                    <img
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-
-                                        alt="Node.js"
-                                        width="40"
-                                        height="40"
-                                    />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="40" height="40" />
                                 </a>
                                 <a rel="noreferrer" href="https://expressjs.com" target="_blank">
-                                    <img
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
-
-                                        alt="Express"
-                                        width="40"
-                                        height="40"
-                                    />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express" width="40" height="40" />
                                 </a>
                                 <a rel="noreferrer" href="https://www.mysql.com/" target="_blank">
-                                    <img
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
-
-                                        alt="MySQL"
-                                        width="40"
-                                        height="40"
-                                    />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40" />
                                 </a>
                                 <a rel="noreferrer" href="https://redis.io/" target="_blank">
-                                    <img
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg"
-
-                                        alt="Redis"
-                                        width="40"
-                                        height="40"
-                                    />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" alt="Redis" width="40" height="40" />
                                 </a>
                                 <a rel="noreferrer" href="https://www.mongodb.com/" target="_blank">
-                                    <img
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
-
-                                        alt="MongoDB"
-                                        width="40"
-                                        height="40"
-                                    />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="40" height="40" />
                                 </a>
                                 <a rel="noreferrer" href="https://www.postgresql.org/" target="_blank">
-                                    <img
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg"
-
-                                        alt="PostgreSQL"
-                                        width="40"
-                                        height="40"
-                                    />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="40" height="40" />
                                 </a>
                             </p>
                         </div>
@@ -285,42 +176,42 @@ const Resume = () => {
                             <h3 className="text-base mb-4 text-gray-200">Machine Learning Tools</h3>
                             <p className="flex gap-3">
                                 <a rel="noreferrer" href="https://scikit-learn.org/" target="_blank">
-                                    <img
-                                        src="https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/doc/logos/scikit-learn-logo.png"
-
-                                        alt="Scikit-learn"
-                                        width="40"
-                                        height="40"
-                                    />
+                                    <img src="https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/doc/logos/scikit-learn-logo.png" alt="Scikit-learn" width="40" height="40" />
                                 </a>
                             </p>
                         </div>
-
 
                         <div className="flex flex-col justify-start items-start">
                             <h3 className="text-base mb-4 text-gray-200">Tools & Others</h3>
                             <p className="flex gap-3">
                                 <a rel="noreferrer" href="https://git-scm.com/" target="_blank">
-                                    <img
-                                        src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
-
-                                        alt="Git"
-                                        width="40"
-                                        height="40"
-                                    />
+                                    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40" />
                                 </a>
                                 <a rel="noreferrer" href="https://postman.com" target="_blank">
+                                    <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="40" height="40" />
+                                </a>
+                                <a rel="noreferrer" href="https://www.linux.org/" target="_blank">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40" />
+                                </a>
+                                <a rel="noreferrer" href="https://graphql.org/" target="_blank">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/graphql/graphql-plain.svg" alt="GraphQL" width="40" height="40" />
+                                </a>
+                                <a rel="noreferrer" href="https://www.docker.com/" target="_blank">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="Docker" width="40" height="40" />
+                                </a>
+                                <a rel="noreferrer" href="https://aws.amazon.com/" target="_blank">
                                     <img
-                                        src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
-
-                                        alt="Postman"
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                                        alt="AWS"
                                         width="40"
                                         height="40"
                                     />
                                 </a>
+
                             </p>
                         </div>
                     </div>
+
                 </Fade>
             </section>
         </div>

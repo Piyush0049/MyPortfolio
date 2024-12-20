@@ -10,6 +10,8 @@ import {
   FaProjectDiagram,
   FaLinkedin,
   FaGithub,
+  FaCode,
+  FaCogs
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FiMail } from "react-icons/fi";
@@ -124,44 +126,49 @@ const Home = () => {
                 description: "Building robust and secure backend systems.",
               },
               {
-                icon: (
-                  <FaProjectDiagram className="text-2xl sm:text-3xl mb-3 text-indigo-400" />
-                ),
+                icon: <FaProjectDiagram className="text-2xl sm:text-3xl mb-3 text-indigo-400" />,
                 title: "Building CampusBid",
-                description:
-                  "Creating a platform to connect students and professionals.",
+                description: "Creating a platform to connect students and professionals.",
               },
               {
                 icon: <FaMobileAlt className="text-2xl sm:text-3xl mb-3 text-indigo-400" />,
                 title: "Mobile App Development",
-                description:
-                  "Developing seamless cross-platform mobile apps.",
+                description: "Developing seamless cross-platform mobile apps.",
               },
               {
                 icon: <FaPalette className="text-2xl sm:text-3xl mb-3 text-indigo-400" />,
                 title: "UI/UX Design",
-                description:
-                  "Designing intuitive and visually stunning interfaces.",
+                description: "Designing intuitive and visually stunning interfaces.",
               },
               {
                 icon: <FaUsers className="text-2xl sm:text-3xl mb-3 text-indigo-400" />,
                 title: "Collaborative Projects",
-                description:
-                  "Collaborating on innovative solutions for diverse industries.",
+                description: "Collaborating on innovative solutions for diverse industries.",
               },
-            ].map((item, index) => (
-              <Zoom>
-                <div
-                  key={index}
-                  className="p-6 border-[2px]  border-blue-900 text-gray-400 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-[500ms] hover:scale-105"
-                >
-                  {item.icon}
-                  <h3 className="text-gray-100 text-lg sm:text-xl font-bold mb-2">{item.title}</h3>
-                  <p className="text-gray-300 text-sm">{item.description}</p>
-                </div>
+              {
+                icon: <FaCogs className="text-2xl sm:text-3xl mb-3 text-indigo-400" />,
+                title: "DevOps",
+                description: "Automating and optimizing development workflows",
+              },
+              {
+                icon: <FaCode className="text-2xl sm:text-3xl mb-3 text-indigo-400" />,
+                title: "Data Structures (DSA)",
+                description: "Solving problems with efficient algorithms and data structures.",
+              },
+            ]
+              .map((item, index) => (
+                <Zoom>
+                  <div
+                    key={index}
+                    className="p-6 border-[2px]  border-blue-900 text-gray-400 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-[500ms] hover:scale-105"
+                  >
+                    {item.icon}
+                    <h3 className="text-gray-100 text-lg sm:text-xl font-bold mb-2">{item.title}</h3>
+                    <p className="text-gray-300 text-sm">{item.description}</p>
+                  </div>
 
-              </Zoom>
-            ))}
+                </Zoom>
+              ))}
           </div>
         </div>
       </Fade>
