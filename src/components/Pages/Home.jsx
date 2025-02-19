@@ -31,7 +31,7 @@ const Home = () => {
               />
             </Fade>
             <Bounce>
-              <h1 className="text-2xl md:text-5xl mt-5 text-white font-extrabold tracking-wide">
+              <h1 className="text-3xl md:text-5xl mt-5 text-white font-extrabold tracking-wide">
                 Piyush Joshi
               </h1>
             </Bounce>
