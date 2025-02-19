@@ -12,7 +12,7 @@ const Resume = () => {
     };
 
     return (
-        <div className="gridGradient bg-gradient-to-r from-blue-900 to-indigo-800 text-white min-h-screen font-poppins p-6 sm:p-8 md:p-36 pt-24 md:pt-28">
+        <div className="gridGradient bg-gradient-to-b from-gray-900 to-gray-900 text-white min-h-screen font-poppins p-6 sm:p-8 md:p-36 pt-24 md:pt-28">
             <section>
                 <Fade top>
                     <h1 className="text-4xl md:text-5xl font-bold text-center mb-10">Resume</h1>
@@ -22,7 +22,7 @@ const Resume = () => {
                         <h2 className="text-2xl md:text-3xl text-gray-100 font-semibold flex items-center">
                             <FaBook className="mr-2" /> Experience
                         </h2>
-                        <div className="group bg-gradient-to-r from-blue-600 to-indigo-600 group-hover:bg-yellow-600 text-gray-100 font-semibold px-3 py-2 sm:px-6 sm:py-3 rounded-lg items-center shadow-2xl transition-all duration-300">
+                        <div className="group bg-gradient-to-r from-teal-600 to-teal-400 group-hover:bg-yellow-600 text-gray-100 font-semibold px-3 py-2 sm:px-6 sm:py-2 rounded-xl items-center shadow-2xl transition-all duration-300">
                             <button
                                 onClick={handleDownload}
                                 className="w-full group-hover:text-gray-300 flex items-center justify-center transition-colors duration-300"
@@ -33,10 +33,10 @@ const Resume = () => {
                     </div>
                 </Fade>
 
-                <div className="relative border-l-[3px] border-blue-400 pl-6 space-y-10 text-gray-300">
+                <div className="relative border-l-[3px] border-teal-200 pl-6 space-y-10 text-gray-300">
                     <Fade bottom cascade>
                         <div className="relative">
-                            <span className="absolute -left-9 w-6 h-6 bg-indigo-500 rounded-full flex items-center justify-center">
+                            <span className="absolute -left-9 w-6 h-6 bg-teal-500 rounded-full flex items-center justify-center">
                                 <span className="w-2.5 h-2.5 bg-white rounded-full"></span>
                             </span>
                             <h3 className="text-xl text-gray-300 font-bold">Full Stack Developer</h3>
@@ -47,7 +47,7 @@ const Resume = () => {
                             </p>
                         </div>
                         <div className="relative">
-                            <span className="absolute -left-9 w-6 h-6 bg-indigo-500 rounded-full flex items-center justify-center">
+                            <span className="absolute -left-9 w-6 h-6 bg-teal-500 rounded-full flex items-center justify-center">
                                 <span className="w-2.5 h-2.5 bg-white rounded-full"></span>
                             </span>
                             <h3 className="text-xl text-gray-300 font-bold">Full Stack Developer</h3>
@@ -57,7 +57,7 @@ const Resume = () => {
                                 • Built and scaled web applications using the MERN stack, reducing page load times by 35%. <br />
                                 • Optimized application performance using Next.js and Tailwind CSS, achieving a 50% improvement in site speed.
                             </p>
-                            <a href="https://drive.google.com/file/d/1CQ1rqdM_y9S_Ezx84bCU_0Iu8TOxzcqH/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="mt-4 inline-flex items-center text-indigo-400">
+                            <a href="https://drive.google.com/file/d/1CQ1rqdM_y9S_Ezx84bCU_0Iu8TOxzcqH/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="mt-4 inline-flex items-center text-teal-400">
                                 <FaCertificate className="text-lg mr-2" />
                                 View Certificate
                             </a>
@@ -74,9 +74,9 @@ const Resume = () => {
                     </h2>
                 </Fade>
                 <Zoom>
-                    <div className="relative border-l-[3px] border-blue-400 pl-6 space-y-10 text-gray-300">
+                    <div className="relative border-l-[3px] border-teal-200 pl-6 space-y-10 text-gray-300">
                         <div className="relative">
-                            <span className="absolute -left-9 w-6 h-6 bg-indigo-500 rounded-full flex items-center justify-center">
+                            <span className="absolute -left-9 w-6 h-6 bg-teal-500 rounded-full flex items-center justify-center">
                                 <span className="w-2.5 h-2.5 bg-white rounded-full"></span>
                             </span>
                             <h3 className="text-lg font-bold">Netaji Subhas University of Technology</h3>

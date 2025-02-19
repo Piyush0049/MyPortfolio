@@ -5,7 +5,7 @@ import { Fade, Zoom } from "react-reveal";
 
 const Contact = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-900 to-indigo-800 text-white font-poppins p-5 sm:p-8 md:p-36 pt-24 md:pt-28">
+    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-900 text-white font-poppins p-5 sm:p-8 md:p-36 pt-24 md:pt-28">
       <Fade top>
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-10">Contact Me</h1>
       </Fade>

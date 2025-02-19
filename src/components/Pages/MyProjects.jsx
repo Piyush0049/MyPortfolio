@@ -14,12 +14,12 @@ const MyProjects = () => {
   const categories = ["All", "Web Apps", "React Js", "JavaScript", "In Progress"];
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-900 to-indigo-800 text-white font-poppins p-5 sm:p-8 md:p-36 pt-24 md:pt-28">
+    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-900 text-white font-poppins p-5 sm:p-8 md:p-36 pt-24 md:pt-28">
       <Fade top>
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-10">
           <span className="relative inline-block">
             My Projects
-            <span className="absolute inset-x-0 bottom-0 h-[5px] bg-blue-600 rounded-full transform scale-x-0 transition-transform duration-300 hover:scale-x-100"></span>
+            <span className="absolute inset-x-0 bottom-0 h-[5px] bg-teal-600 rounded-full transform scale-x-0 transition-transform duration-300 hover:scale-x-100"></span>
           </span>
         </h1>
       </Fade>
@@ -31,8 +31,8 @@ const MyProjects = () => {
               key={category}
               className={`px-5 py-2 text-sm md:text-none rounded-full font-medium transition-all duration-300 transform ${
                 activeCategory === category
-                  ? "bg-blue-600 text-white scale-105 shadow-lg"
-                  : "hover:bg-blue-400 hover:scale-105 text-white"
+                  ? "bg-teal-600 text-white scale-105 shadow-lg"
+                  : "hover:bg-teal-400 hover:scale-105 text-white"
               }`}
               onClick={() => setActiveCategory(category)}
             >

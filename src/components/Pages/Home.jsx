@@ -19,7 +19,7 @@ import "../Styles/Home.css";
 
 const Home = () => {
   return (
-    <div className="font-poppins h-auto bg-gradient-to-r from-blue-900 to-indigo-800 text-gray-200 text-center p-5 md:px-12 pt-24 md:pt-40 md:pb-12">
+    <div className="font-poppins h-auto bg-gradient-to-b from-gray-900 to-gray-900 text-gray-200 text-center p-5 md:px-12 pt-24 md:pt-32 md:pb-12">
       <Fade>
         <div className="relative mb-12">
           <div className="relative z-10">
@@ -27,15 +27,15 @@ const Home = () => {
               <img
                 src="/profimage.png"
                 alt="Piyush Joshi"
-                className="w-48 h-48 md:w-80 md:h-80 rounded-full border-[3px] border-gray-100 mx-auto shadow-xl transform -translate-y-8 transition-transform duration-500 hover:scale-105"
+                className="w-48 h-48 md:w-80 md:h-80 rounded-full border-[2px] border-teal-100 mx-auto shadow-xl transform -translate-y-8 transition-transform duration-500 hover:scale-105"
               />
             </Fade>
             <Bounce>
-              <h1 className="text-4xl md:text-5xl mt-5 text-white font-extrabold tracking-wide">
+              <h1 className="text-2xl md:text-5xl mt-5 text-white font-extrabold tracking-wide">
                 Piyush Joshi
               </h1>
             </Bounce>
-            <p className="text-lg md:text-xl mt-3 sm:mt-5 text-gray-300">
+            <p className="text-[16px] md:text-xl mt-3 sm:mt-5 text-gray-300">
               <Typical
                 steps={[
                   "Full Stack Developer",
@@ -67,7 +67,7 @@ const Home = () => {
         <div className="mb-10">
           <a
             href="/contactme"
-            className="inline-flex items-center px-6 py-3 sm:px-5 sm:py-3 bg-gradient-to-r from-indigo-600 to-indigo-800 text-white text-base sm:text-base font-semibold rounded-full shadow-lg transition-transform duration-300 hover:from-indigo-500 hover:to-indigo-700 hover:scale-105 hover:shadow-2xl"
+            className="inline-flex items-center px-5 py-2 sm:px-5 sm:py-2.5 bg-gradient-to-r from-teal-600 to-teal-800 text-white text-sm sm:text-base font-semibold rounded-full shadow-lg transition-transform duration-300 hover:from-teal-500 hover:to-teal-700 hover:scale-105 hover:shadow-2xl"
           >
             <FiMail className="mr-2" />
             Contact Me
@@ -99,7 +99,7 @@ const Home = () => {
               href={social.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white hover:text-indigo-400 transition-colors duration-300 transform hover:scale-110"
+              className="text-white hover:text-teal-400 transition-colors duration-300 transform hover:scale-110"
               title={social.label}
             >
               {social.icon}
@@ -116,42 +116,42 @@ const Home = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                icon: <FaLaptopCode className="text-2xl sm:text-3xl mb-3 text-indigo-400" />,
+                icon: <FaLaptopCode className="text-2xl sm:text-3xl mb-3 text-teal-400" />,
                 title: "Frontend Development",
                 description: "Crafting responsive and dynamic user interfaces.",
               },
               {
-                icon: <FaDatabase className="text-2xl sm:text-3xl mb-3 text-indigo-400" />,
+                icon: <FaDatabase className="text-2xl sm:text-3xl mb-3 text-teal-400" />,
                 title: "Backend Development",
                 description: "Building robust and secure backend systems.",
               },
               {
-                icon: <FaProjectDiagram className="text-2xl sm:text-3xl mb-3 text-indigo-400" />,
+                icon: <FaProjectDiagram className="text-2xl sm:text-3xl mb-3 text-teal-400" />,
                 title: "Building CampusBid",
                 description: "Creating a platform to connect students and professionals.",
               },
               {
-                icon: <FaMobileAlt className="text-2xl sm:text-3xl mb-3 text-indigo-400" />,
+                icon: <FaMobileAlt className="text-2xl sm:text-3xl mb-3 text-teal-400" />,
                 title: "Mobile App Development",
                 description: "Developing seamless cross-platform mobile apps.",
               },
               {
-                icon: <FaPalette className="text-2xl sm:text-3xl mb-3 text-indigo-400" />,
+                icon: <FaPalette className="text-2xl sm:text-3xl mb-3 text-teal-400" />,
                 title: "UI/UX Design",
                 description: "Designing intuitive and visually stunning interfaces.",
               },
               {
-                icon: <FaUsers className="text-2xl sm:text-3xl mb-3 text-indigo-400" />,
+                icon: <FaUsers className="text-2xl sm:text-3xl mb-3 text-teal-400" />,
                 title: "Collaborative Projects",
                 description: "Collaborating on innovative solutions for diverse industries.",
               },
               {
-                icon: <FaCogs className="text-2xl sm:text-3xl mb-3 text-indigo-400" />,
+                icon: <FaCogs className="text-2xl sm:text-3xl mb-3 text-teal-400" />,
                 title: "DevOps",
                 description: "Automating and optimizing development workflows",
               },
               {
-                icon: <FaCode className="text-2xl sm:text-3xl mb-3 text-indigo-400" />,
+                icon: <FaCode className="text-2xl sm:text-3xl mb-3 text-teal-400" />,
                 title: "Data Structures (DSA)",
                 description: "Solving problems with efficient algorithms and data structures.",
               },
@@ -160,7 +160,7 @@ const Home = () => {
                 <Zoom>
                   <div
                     key={index}
-                    className="p-6 border-[2px]  border-blue-900 text-gray-400 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-[500ms] hover:scale-105"
+                    className="p-6 border-[2px]  border-teal-950 text-gray-400 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-[500ms] hover:scale-105"
                   >
                     {item.icon}
                     <h3 className="text-gray-100 text-lg sm:text-xl font-bold mb-2">{item.title}</h3>

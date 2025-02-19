@@ -11,7 +11,7 @@ import Sidebar from "./components/Sidebar";
 function App() {
   return (
     
-    <div className="App bg-gradient-to-r from-blue-900 to-indigo-800">
+    <div className="App bg-gradient-to-r from-blue-900 to-teal-800">
     <Router>
         {/* Pass className for showing/hiding Navbar and Sidebar based on screen size */}
         <Navbar className="hidden md:block" />
