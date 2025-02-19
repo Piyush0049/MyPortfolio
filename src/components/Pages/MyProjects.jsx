@@ -23,17 +23,15 @@ const MyProjects = () => {
           </span>
         </h1>
       </Fade>
-
       <Zoom>
         <div className="flex justify-center flex-wrap gap-2 md:gap-4 mb-12">
           {categories.map((category) => (
             <button
               key={category}
-              className={`px-5 py-2 text-sm md:text-none rounded-full font-medium transition-all duration-300 transform ${
-                activeCategory === category
+              className={`px-5 py-2 text-sm md:text-none rounded-full font-medium transition-all duration-300 transform ${activeCategory === category
                   ? "bg-teal-600 text-white scale-105 shadow-lg"
                   : "hover:bg-teal-400 hover:scale-105 text-white"
-              }`}
+                }`}
               onClick={() => setActiveCategory(category)}
             >
               {category}

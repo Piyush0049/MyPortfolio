@@ -41,7 +41,7 @@ const Sidebar = () => {
             {!isOpen && <div className="fixed top-4 left-4 z-50 shadow-2xl">
                 <button
                     onClick={toggleMenu}
-                    className="bg-gradient-to-r from-teal-600 to-teal-600 text-white hover:bg-gradient-to-l hover:from-teal-600 hover:to-blue-700 text-2xl p-3 rounded-full transition-all duration-300 focus:outline-none"
+                    className="bg-gradient-to-r from-teal-600 to-teal-600 text-white hover:bg-gradient-to-l hover:from-teal-600 hover:to-teal-700 text-2xl p-3 rounded-full transition-all duration-300 focus:outline-none"
                 >
                     {!isOpen && <FaBars />}
                 </button>
@@ -49,8 +49,8 @@ const Sidebar = () => {
 
             <div
                 ref={sidebarRef}
-                className={`fixed inset-y-0 left-0 z-40 bg-gradient-to-r from-blue-900 to-teal-800 w-72 transform transition-transform duration-500 ease-in-out ${isOpen ? "translate-x-0" : "-translate-x-full"
-                    } shadow-xl rounded-r-xl pt-10`}
+                className={`fixed inset-y-0 left-0 z-40 bg-gradient-to-r from-gray-900 to-gray-800 w-72 transform transition-transform duration-500 ease-in-out ${isOpen ? "translate-x-0" : "-translate-x-full"
+                    } shadow-xl rounded-r-md pt-10`}
             >
                 <div className="flex flex-col items-center py-8 space-y-8">
 
