@@ -19,49 +19,49 @@ const Contact = () => {
             </p>
             <ul className="space-y-4">
               <li className="flex items-center">
-                <FaEnvelope className="text-blue-500 md:text-xl mr-4" />
+                <FaEnvelope className="text-teal-500 md:text-xl mr-4" />
                 <a
                   href="mailto:piyushjoshi81204@gmail.com"
-                  className="md:text-lg hover:text-blue-400 transition-transform duration-300 hover:scale-105"
+                  className="md:text-lg hover:text-teal-400 transition-transform duration-300 hover:scale-105"
                 >
                   piyushjoshi81204@gmail.com
                 </a>
               </li>
               <li className="flex items-center">
-                <FaPhone className="text-blue-500 md:text-xl mr-4" />
+                <FaPhone className="text-teal-500 md:text-xl mr-4" />
                 <span className="md:text-lg hover:scale-105 transition-transform">
                   +91 9485793073
                 </span>
               </li>
               <li className="flex items-center">
-                <FaXTwitter className="text-blue-500 md:text-xl mr-4" />
+                <FaXTwitter className="text-teal-500 md:text-xl mr-4" />
                 <a
                   href="https://x.com/PiyushJ17146399"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="md:text-lg hover:text-blue-400 transition-transform duration-300 hover:scale-105"
+                  className="md:text-lg hover:text-teal-400 transition-transform duration-300 hover:scale-105"
                 >
                   PiyushJ17146399
                 </a>
               </li>
               <li className="flex items-center">
-                <FaLinkedin className="text-blue-500 md:text-xl mr-4" />
+                <FaLinkedin className="text-teal-500 md:text-xl mr-4" />
                 <a
                   href="https://www.linkedin.com/in/piyush-joshi-324778254/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="md:text-lg hover:text-blue-400 transition-transform duration-300 hover:scale-105"
+                  className="md:text-lg hover:text-teal-400 transition-transform duration-300 hover:scale-105"
                 >
                   piyush-joshi-324778254
                 </a>
               </li>
               <li className="flex items-center">
-                <FaGithub className="text-blue-500 md:text-xl mr-4" />
+                <FaGithub className="text-teal-500 md:text-xl mr-4" />
                 <a
                   href="https://github.com/Piyush0049"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="md:text-lg hover:text-blue-400 transition-transform duration-300 hover:scale-105"
+                  className="md:text-lg hover:text-teal-400 transition-transform duration-300 hover:scale-105"
                 >
                   Piyush0049
                 </a>
